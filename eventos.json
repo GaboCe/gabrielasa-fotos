@@ -1,0 +1,1717 @@
+{
+ "whatsapp": "5492233040480",
+ "whatsappTexto": "223 304-0480",
+ "eventos": [
+  {
+   "id": "E01",
+   "banda": "Tercer Tiempo",
+   "lugar": "Mole Club",
+   "ciudad": "Mar del Plata",
+   "fecha": "2025-11-28",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E02",
+   "banda": "Felipe Barroso",
+   "lugar": "Mole Club",
+   "ciudad": "Mar del Plata",
+   "fecha": "2025-11-28",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "19",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E03",
+   "banda": "Gran Barbarie",
+   "lugar": "Mole Club",
+   "ciudad": "Mar del Plata",
+   "fecha": "2025-11-28",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E04",
+   "banda": "Inoxidables",
+   "lugar": "Mole Club",
+   "ciudad": "Mar del Plata",
+   "fecha": "2025-11-28",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "19",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "21",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E05",
+   "banda": "Fidel Nadal",
+   "lugar": "El Centrito",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-01-02",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E06",
+   "banda": "Fidel Nadal",
+   "lugar": "Rilanco",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-01-02",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "19",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "21",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "22",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "23",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E07",
+   "banda": "Besos de Perros",
+   "lugar": "Vorterix Marea",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-09-12",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ],
+   "evento": "Festival Que suba la marea 3"
+  },
+  {
+   "id": "E08",
+   "banda": "Cruz Mandinga",
+   "lugar": "Vorterix Marea",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-09-12",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ],
+   "evento": "Festival Que suba la marea 3"
+  },
+  {
+   "id": "E09",
+   "banda": "Degarash",
+   "lugar": "Vorterix Marea",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-09-12",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ],
+   "evento": "Festival Que suba la marea 3"
+  },
+  {
+   "id": "E10",
+   "banda": "El Koko de Ernesto",
+   "lugar": "Vorterix Marea",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-09-12",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ],
+   "evento": "Festival Que suba la marea 3"
+  },
+  {
+   "id": "E11",
+   "banda": "La Juanita",
+   "lugar": "Vorterix Marea",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-09-12",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ],
+   "evento": "Festival Que suba la marea 3"
+  },
+  {
+   "id": "E12",
+   "banda": "Mal de Parkinson",
+   "lugar": "Vorterix Marea",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-09-12",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "19",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "21",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ],
+   "evento": "Festival Que suba la marea 3"
+  },
+  {
+   "id": "E13",
+   "banda": "Mil Puertas",
+   "lugar": "Vorterix Marea",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-09-12",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    }
+   ],
+   "evento": "Festival Que suba la marea 3"
+  },
+  {
+   "id": "E14",
+   "banda": "Parate y Mira",
+   "lugar": "Botellas Bar",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-08-01",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "19",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "21",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "22",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E15",
+   "banda": "Dúo Trópico",
+   "lugar": "Botellas Bar",
+   "ciudad": "Mar del Plata",
+   "fecha": "2025-02-19",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "19",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "21",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "22",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "23",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "24",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E16",
+   "banda": "Bonavena",
+   "lugar": "Mole Club",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-10-10",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 1.776,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 1.776,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 1.774,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  }
+ ]
+}
