@@ -144,6 +144,8 @@ footer{border-top:1px solid var(--linea);padding-block:24px 40px;font-family:var
 .pared p{font-size:14px!important}
 .tope{font-size:13px;color:var(--humo);margin:0}
 .lb-nav{display:flex;gap:8px;margin-top:auto;padding-top:8px}
+/* deja libre la esquina inferior para el cartel de Netlify */
+.capa{padding-bottom:max(76px,calc(env(safe-area-inset-bottom,0px) + 64px))!important}
 .lb-nav button,.cerrar{font-size:14px;background:var(--tablado);color:var(--papel);border:1px solid var(--linea);border-radius:8px;padding:10px 14px;cursor:pointer;flex:1}
 .cerrar{position:absolute;top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px));flex:none;z-index:2}
 
