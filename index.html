@@ -39,6 +39,9 @@ button{font:inherit}
 .aviso b{color:var(--tungsteno);font-weight:500}
 
 header.cartel{padding-block:40px 28px;display:grid;gap:10px}
+.obra{margin-top:10px;max-width:68ch;border-left:3px solid var(--tungsteno);background:var(--tablado);border-radius:0 8px 8px 0;padding:12px 16px;display:grid;gap:4px}
+.obra-tag{font-family:var(--f-dato);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--tungsteno)}
+.obra p{margin:0;font-size:15px;line-height:1.5;color:var(--humo)}
 .firma{font-family:var(--f-dato);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--tungsteno)}
 h1{font-family:var(--f-cartel);font-weight:800;text-transform:uppercase;line-height:.88;margin:0;
   font-size:clamp(56px,13vw,148px);letter-spacing:-.01em;text-wrap:balance}
@@ -205,6 +208,10 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
     <h1>Fotos <span>en vivo</span></h1>
     <p class="bajada">Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis.</p>
     <nav class="nav"><a href="#galeria">Buscar mi show</a><a href="https://instagram.com/gabriel.asa.mdp" target="_blank" rel="noopener">@gabriel.asa.mdp</a><a href="#cuadros">Fotos impresas</a></nav>
+    <aside class="obra" aria-label="Aviso">
+      <span class="obra-tag">Web en construcción</span>
+      <p>Ya están subidos los shows, pero muchas fotos todavía no tienen su edición final: encuadre, color y nitidez. Las voy procesando de a poco, así que si alguna se ve rara o mal cortada, es eso: falta editarla. Las fotos que se imprimen se editan siempre antes.</p>
+    </aside>
   </header>
 
   <div class="filtros" id="galeria">
