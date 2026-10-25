@@ -1895,6 +1895,741 @@
      "max": 20
     }
    ]
+  },
+  {
+   "id": "E18",
+   "banda": "Keeys & Reeds",
+   "lugar": "Güemes",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    }
+   ],
+   "fecha": "2025-01-10"
+  },
+  {
+   "id": "E19",
+   "banda": "Marlaugg",
+   "lugar": "Russt",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "06",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "13",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "19",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "21",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "22",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "23",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "24",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "25",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "26",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "27",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "28",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "29",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "30",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "31",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "32",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "33",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "34",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    }
+   ],
+   "fecha": "2025-02-22"
+  },
+  {
+   "id": "E20",
+   "banda": "Marlaugg",
+   "lugar": "Barón",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "04",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "05",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "06",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "08",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "13",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    }
+   ],
+   "fecha": "2025-02-28"
+  },
+  {
+   "id": "E21",
+   "banda": "Marlaugg",
+   "lugar": "Botellas Bar",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 30
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "10",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "11",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    }
+   ],
+   "fecha": "2025-03-08"
+  },
+  {
+   "id": "E22",
+   "banda": "Marlaugg",
+   "lugar": "Tom Cervecería",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 1.5,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "06",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    }
+   ],
+   "fecha": "2025-03-22"
+  },
+  {
+   "id": "E23",
+   "banda": "Gran Barbarie",
+   "lugar": "Ccave",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "05",
+     "r": 1.779,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "06",
+     "r": 1.779,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "07",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "08",
+     "r": 1.5,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E24",
+   "banda": "Los de Alicante",
+   "lugar": "Ccave",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
+  },
+  {
+   "id": "E25",
+   "banda": "Tercer Tiempo",
+   "lugar": "Ccave",
+   "ciudad": "Mar del Plata",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 40
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    }
+   ]
   }
  ]
 }
