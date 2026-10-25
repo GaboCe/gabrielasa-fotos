@@ -81,8 +81,8 @@ main{display:grid;gap:64px;padding-block:40px 24px}
 .ficha{position:sticky;top:calc(env(safe-area-inset-top,0px) + 20px);align-self:start;display:grid;gap:6px;min-width:0;
   border-left:2px solid var(--tungsteno);padding-left:14px;transition:border-color .4s}
 .sello{font-family:var(--f-dato);font-size:13px;color:var(--tungsteno);letter-spacing:.06em;text-transform:uppercase}
-.ficha h2{font-family:var(--f-cartel);font-weight:800;text-transform:uppercase;font-size:36px;line-height:.95;margin:0;text-wrap:balance;overflow-wrap:break-word}
-.ficha .evento{font-family:var(--f-dato);font-size:12px;color:var(--tungsteno);letter-spacing:.04em}
+.ficha h2{font-family:var(--f-cartel);font-weight:800;text-transform:uppercase;font-size:36px;line-height:.95;margin:0;text-wrap:balance}
+.ficha .festival{font-family:var(--f-dato);font-size:12px;color:var(--tungsteno);letter-spacing:.04em}
 .ficha .lugar{color:var(--papel);font-size:15px}
 .ficha .ciudad{color:var(--humo);font-size:14px}
 .ficha .cod{font-family:var(--f-dato);font-size:12px;color:var(--humo)}
@@ -371,23 +371,29 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
 
   function ponerHash(h){ try{history.replaceState(null,"",h?"#"+h:location.pathname+location.search)}catch(e){} }
 
+  /* achica el nombre si una palabra no entra en la columna (evita que se meta debajo de las fotos) */
+  let ajustarTitulos=[];
+  function encajar(){ajustarTitulos.forEach(h=>{h.style.fontSize="";let fs=parseFloat(getComputedStyle(h).fontSize);while(h.scrollWidth>h.clientWidth+1&&fs>16){fs-=1;h.style.fontSize=fs+"px"}})}
+  addEventListener("resize",()=>encajar());
+  if(document.fonts)document.fonts.ready.then(()=>encajar());
   function render(){
     chips("banda","lugar"); chips("lugar","banda");
     const evs=datos.eventos.slice().sort((a,b)=>(b.fecha||"").localeCompare(a.fecha||"")||a.id.localeCompare(b.id))
       .filter(ev=>(!sel.banda||nombre(ev)===sel.banda)&&(!sel.lugar||ev.lugar===sel.lugar)&&pasaTexto(ev));
     $("#limpiar").hidden=!($("#q").value||sel.banda||sel.lugar);
-    visibles=[];
+    visibles=[]; ajustarTitulos=[];
     const main=$("#eventos"); main.innerHTML="";
     if(!evs.length){main.innerHTML='<p class="vacio">No hay fotos que coincidan. Probá con otra banda o lugar.</p>';$("#resumen").textContent="";return}
     let nFotos=0;
     evs.forEach(ev=>{
       const amb=ev.tipo==="ambiente";
       const art=document.createElement("article"); art.className="evento"; art.id="show-"+ev.id;
-      art.innerHTML=`<div class="ficha">${ev.fecha?`<span class="sello">${fecha(ev.fecha)}</span>`:""}${amb?'<span class="etq amb">Fotos del lugar</span>':''}<h2></h2>${ev.evento?'<span class="evento"></span>':""}<span class="lugar"></span><span class="ciudad"></span><span class="cod">${amb?"Fecha":"Show"} ${ev.id} · ${ev.fotos.length} fotos</span><button type="button" class="enlace">Compartir ${amb?"estas fotos":"este show"}</button>${ev.ejemplo?'<span class="etq">fecha de ejemplo</span>':''}</div><div class="grilla"></div>`;
+      art.innerHTML=`<div class="ficha">${ev.fecha?`<span class="sello">${fecha(ev.fecha)}</span>`:""}${amb?'<span class="etq amb">Fotos del lugar</span>':''}<h2></h2>${ev.evento?'<span class="festival"></span>':""}<span class="lugar"></span><span class="ciudad"></span><span class="cod">${amb?"Fecha":"Show"} ${ev.id} · ${ev.fotos.length} fotos</span><button type="button" class="enlace">Compartir ${amb?"estas fotos":"este show"}</button>${ev.ejemplo?'<span class="etq">fecha de ejemplo</span>':''}</div><div class="grilla"></div>`;
       art.querySelector("h2").textContent=amb?ev.lugar:ev.banda;
+      ajustarTitulos.push(art.querySelector("h2"));
       art.querySelector(".lugar").textContent=amb?"Ambiente, barra y detalles":ev.lugar;
       art.querySelector(".ciudad").textContent=ev.ciudad||"";
-      if(ev.evento)art.querySelector(".evento").textContent=ev.evento;
+      if(ev.evento)art.querySelector(".festival").textContent=ev.evento;
       art.querySelector(".enlace").onclick=()=>compartir("show-"+ev.id,`${amb?ev.lugar:ev.banda} · fotos de Gabriel Asa`);
       const g=art.querySelector(".grilla");
       ev.fotos.forEach(f=>{
@@ -405,6 +411,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
     const r=$("#resumen"); r.innerHTML="";
     const b=document.createElement("b"); b.textContent=plural(nFotos,"foto","fotos");
     r.append(b,` · ${plural(evs.length,"show","shows")} en ${plural(lugares,"lugar","lugares")}`);
+    encajar();
   }
 
   /* Visor */
