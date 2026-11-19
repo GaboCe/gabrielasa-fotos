@@ -2621,12 +2621,6 @@
      "max": 20
     },
     {
-     "archivo": "19",
-     "r": 0.8,
-     "titulo": "",
-     "max": 20
-    },
-    {
      "archivo": "20",
      "r": 0.8,
      "titulo": "",
@@ -2687,12 +2681,6 @@
      "max": 20
     },
     {
-     "archivo": "30",
-     "r": 0.8,
-     "titulo": "",
-     "max": 20
-    },
-    {
      "archivo": "31",
      "r": 0.8,
      "titulo": "",
@@ -2706,12 +2694,6 @@
     },
     {
      "archivo": "33",
-     "r": 0.8,
-     "titulo": "",
-     "max": 20
-    },
-    {
-     "archivo": "34",
      "r": 0.8,
      "titulo": "",
      "max": 20
@@ -2747,14 +2729,26 @@
      "max": 20
     },
     {
-     "archivo": "40",
+     "archivo": "41",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "42",
      "r": 0.8,
      "titulo": "",
      "max": 20
     },
     {
-     "archivo": "41",
-     "r": 1.78,
+     "archivo": "43",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "44",
+     "r": 0.8,
      "titulo": "",
      "max": 20
     }
