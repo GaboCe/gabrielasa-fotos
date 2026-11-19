@@ -2504,6 +2504,261 @@
      "max": 20
     }
    ]
+  },
+  {
+   "id": "E27",
+   "banda": "Jóvenes Guasones",
+   "lugar": "Centro Asturiano",
+   "ciudad": "Mar del Plata",
+   "fecha": "2026-11-14",
+   "fotos": [
+    {
+     "archivo": "01",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "02",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "03",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "04",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "05",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "06",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "07",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "08",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "09",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "10",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "11",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "12",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "13",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "14",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "15",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "16",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "17",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "18",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "19",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "20",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "21",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "22",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "23",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "24",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "25",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "26",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "27",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "28",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "29",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "30",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "31",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "32",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "33",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "34",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "35",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "36",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "37",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "38",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "39",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "40",
+     "r": 0.8,
+     "titulo": "",
+     "max": 20
+    },
+    {
+     "archivo": "41",
+     "r": 1.78,
+     "titulo": "",
+     "max": 20
+    }
+   ]
   }
  ]
 }
