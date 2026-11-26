@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Gabriel Asa Fotografía</title>
+<title>Fotos en vivo · Gabriel Asa</title>
 <meta name="description" content="Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis para usar en tus redes y promociones, o pedila impresa y enmarcada.">
 <link rel="canonical" href="https://fotos.gabrielasa.com.ar/">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Gabriel Asa Fotografía">
+<meta property="og:site_name" content="Fotos en vivo · Gabriel Asa">
 <meta property="og:title" content="Fotos en vivo · Gabriel Asa">
 <meta property="og:description" content="Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis.">
 <meta property="og:url" content="https://fotos.gabrielasa.com.ar/">
@@ -343,7 +343,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
     <p class="gratis"><b>Las descargas son gratis.</b> Bajá las fotos que quieras para tus redes. Si las subís, etiquetame en <b>@gabriel.asa.mdp</b>.</p>
   </section>
 
-  <footer><span>© Gabriel Asa · Fotografía de shows</span><span id="pie-wa"></span></footer>
+  <footer><span>© Gabriel Asa · Fotos en vivo · Mar del Plata</span><span id="pie-wa" hidden></span></footer>
 </div>
 
 <!-- Visor de foto -->
@@ -644,7 +644,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
   fetch("eventos.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
     datos=d;
     const destino=leerHash();
-    $("#pie-wa").textContent=d.whatsapp?`WhatsApp: ${d.whatsappTexto||d.whatsapp}`:"";$("#aviso").hidden=!!d.whatsapp;
+    $("#aviso").hidden=!!d.whatsapp;
     if(d.whatsapp)$("#cartel-wa").href=`https://wa.me/${d.whatsapp}?text=${encodeURIComponent("Hola Gabriel, vi tus fotos en la web.")}`;
     render();
     const pt=$("#portada");
