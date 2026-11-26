@@ -108,6 +108,10 @@ h1 span{color:transparent;-webkit-text-stroke:1.5px var(--papel)}
 .nav a{transition:transform .2s,border-color .2s,box-shadow .2s}
 .nav a:hover{transform:translateY(-2px)}
 .nav a.ig{gap:7px;border-color:rgba(225,48,108,.55)}
+footer{align-items:center}
+.pie-ig{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:var(--papel);border:1px solid rgba(225,48,108,.55);border-radius:999px;padding:8px 14px;font-family:var(--f-dato);font-size:13px;transition:border-color .2s,transform .2s}
+.pie-ig:hover{border-color:#e1306c;transform:translateY(-2px)}
+.pie-ig svg{width:16px;height:16px;fill:none;stroke:url(#igGrad);stroke-width:2.2}
 .nav a.imp{gap:7px;border-color:rgba(240,180,76,.6);color:var(--papel)}
 .nav a.imp svg{width:16px;height:16px;fill:none;stroke:var(--tungsteno);stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
 .nav a.imp:hover{border-color:var(--tungsteno);box-shadow:0 0 0 3px rgba(240,180,76,.12)}
@@ -300,7 +304,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
       <h1>Fotos <span>en vivo</span></h1>
       <p class="bajada">Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis para usar en tus redes y promociones.</p>
       <p class="soy">Soy Gabriel y saco fotos en los shows de la ciudad. Si tocás o estuviste ahí, buscate.</p>
-      <nav class="nav"><a class="imp" href="#cuadros"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="1.5"/><rect x="6.5" y="6.5" width="11" height="11"/><path d="M6.5 15l3.2-3.2 2.6 2.6 1.8-1.8 3.4 3.4"/></svg>Fotos impresas</a><a class="ig" href="https://instagram.com/gabriel.asa.mdp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="igGrad" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#f9a03f"/><stop offset=".5" stop-color="#e1306c"/><stop offset="1" stop-color="#833ab4"/></linearGradient></defs><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#e1306c" stroke="none"/></svg>@gabriel.asa.mdp</a></nav>
+      <nav class="nav"><a class="imp" href="#cuadros"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="1.5"/><rect x="6.5" y="6.5" width="11" height="11"/><path d="M6.5 15l3.2-3.2 2.6 2.6 1.8-1.8 3.4 3.4"/></svg>Fotos impresas</a></nav>
       <details class="obra">
         <summary><span class="obra-tag">Web en construcción</span> Algunas fotos todavía no tienen su edición final. <span class="mas">Ver más</span></summary>
         <p>Ya están subidos los shows, pero muchas fotos todavía no tienen su edición final: encuadre, color y nitidez. Las voy procesando de a poco, así que si alguna se ve rara o mal cortada, es eso: falta editarla. Las fotos que se imprimen se editan siempre antes.</p>
@@ -343,7 +347,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
     <p class="gratis"><b>Las descargas son gratis.</b> Bajá las fotos que quieras para tus redes. Si las subís, etiquetame en <b>@gabriel.asa.mdp</b>.</p>
   </section>
 
-  <footer><span>© Gabriel Asa · Fotos en vivo · Mar del Plata</span><span id="pie-wa" hidden></span></footer>
+  <footer><span>© Gabriel Asa · Fotos en vivo · Mar del Plata</span><span id="pie-wa" hidden></span><a class="pie-ig" href="https://instagram.com/gabriel.asa.mdp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="igGrad" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#f9a03f"/><stop offset=".5" stop-color="#e1306c"/><stop offset="1" stop-color="#833ab4"/></linearGradient></defs><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#e1306c" stroke="none"/></svg>@gabriel.asa.mdp</a></footer>
 </div>
 
 <!-- Visor de foto -->
