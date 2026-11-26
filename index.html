@@ -56,7 +56,7 @@ header.cartel{padding-block:40px 28px;display:grid;grid-template-columns:minmax(
 .soy{margin:0;max-width:52ch;color:var(--humo);font-size:15px}
 .portada{min-width:0;align-self:stretch;margin-block:-40px -28px;margin-right:calc(-1 * max(16px,(100vw - 1120px)/2));position:relative}
 .portada button{border:0;padding:0;background:none;cursor:zoom-in;display:block;width:100%;height:100%;min-height:420px}
-.portada img{width:100%;height:100%;object-fit:cover;object-position:50% 78%;display:block;
+.portada img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;display:block;
   -webkit-mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.35) 25%,#000 60%);mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.35) 25%,#000 60%)}
 .obra summary{cursor:pointer;list-style:none;font-size:14px;color:var(--humo);line-height:1.5}
 .obra summary::-webkit-details-marker{display:none}
@@ -67,7 +67,36 @@ header.cartel{padding-block:40px 28px;display:grid;grid-template-columns:minmax(
 .obra{margin-top:6px;max-width:68ch;border-left:3px solid var(--tungsteno);background:var(--tablado);border-radius:0 8px 8px 0;padding:10px 14px}
 .obra-tag{font-family:var(--f-dato);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--tungsteno)}
 .obra p{margin:0;font-size:15px;line-height:1.5;color:var(--humo)}
-.firma{font-family:var(--f-dato);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--tungsteno)}
+.firma{font-family:var(--f-dato);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--tungsteno);display:flex;align-items:center;gap:10px}
+.firma::before{content:"";width:8px;height:8px;border-radius:50%;background:#ff3b3b;box-shadow:0 0 0 0 rgba(255,59,59,.6);animation:enVivo 1.8s ease-out infinite;flex:none}
+@keyframes enVivo{0%{box-shadow:0 0 0 0 rgba(255,59,59,.6)}70%{box-shadow:0 0 0 9px rgba(255,59,59,0)}100%{box-shadow:0 0 0 0 rgba(255,59,59,0)}}
+/* entrada de la portada */
+@keyframes subir{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes aparecer{from{opacity:0}to{opacity:1}}
+@keyframes acercar{from{transform:scale(1.12)}to{transform:scale(1)}}
+.cartel-txt>*,header.cartel>.firma,header.cartel h1,.bajada,.soy,.nav,.obra{animation:subir .8s cubic-bezier(.2,.7,.2,1) both}
+.firma{animation-delay:.05s} h1{animation-delay:.15s} .bajada{animation-delay:.3s} .soy{animation-delay:.4s} .nav{animation-delay:.5s} .obra{animation-delay:.6s}
+h1 span{display:inline-block;background:linear-gradient(100deg,transparent 40%,rgba(240,180,76,.9) 50%,transparent 60%) 200% 0/250% 100% no-repeat;-webkit-background-clip:text;background-clip:text;animation:brillo 6s ease-in-out 1.2s infinite}
+@keyframes brillo{0%{background-position:200% 0}35%,100%{background-position:-60% 0}}
+.portada{animation:aparecer 1.2s ease both .1s}
+.portada img{animation:acercar 9s ease-out both}
+/* aparición al bajar */
+.revela{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.revela.visto{opacity:1;transform:none}
+.foto img{opacity:0;transition:opacity .5s ease,transform .5s ease}
+.foto img.cargo{opacity:1}
+.foto::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 0 var(--tungsteno);transition:box-shadow .25s;pointer-events:none}
+.foto:hover::after{box-shadow:inset 0 0 0 2px var(--tungsteno)}
+.foto:hover img{filter:brightness(1.08)}
+/* visor: cambio de foto */
+@keyframes fundido{from{opacity:0;transform:scale(.985)}to{opacity:1;transform:none}}
+#lb-foto.cambia{animation:fundido .35s ease both}
+.capa:not([hidden]){animation:aparecer .25s ease both}
+.btn{transition:transform .15s,filter .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-principal:hover{box-shadow:0 8px 24px rgba(240,180,76,.3)}
+.fab{animation:latido 2.8s ease-out infinite}
+@keyframes latido{0%{box-shadow:0 8px 24px rgba(0,0,0,.45),0 0 0 0 rgba(37,211,102,.45)}70%{box-shadow:0 8px 24px rgba(0,0,0,.45),0 0 0 14px rgba(37,211,102,0)}100%{box-shadow:0 8px 24px rgba(0,0,0,.45),0 0 0 0 rgba(37,211,102,0)}}
 h1{font-family:var(--f-cartel);font-weight:800;text-transform:uppercase;line-height:.88;margin:0;
   font-size:clamp(56px,11vw,128px);letter-spacing:-.01em;text-wrap:balance}
 h1 span{color:transparent;-webkit-text-stroke:1.5px var(--papel)}
@@ -76,6 +105,11 @@ h1 span{color:transparent;-webkit-text-stroke:1.5px var(--papel)}
 .nav a{text-decoration:none;border:1px solid var(--linea);border-radius:999px;padding:9px 14px;min-height:40px;display:inline-flex;align-items:center}
 .nav a.wa{border-color:var(--wa);color:var(--wa)}
 .nav a:hover{border-color:var(--tungsteno)}
+.nav a{transition:transform .2s,border-color .2s,box-shadow .2s}
+.nav a:hover{transform:translateY(-2px)}
+.nav a.ig{border:0;color:#fff;gap:8px;padding:10px 16px;background:linear-gradient(45deg,#f9a03f 0%,#e1306c 45%,#c13584 65%,#833ab4 100%);box-shadow:0 6px 20px rgba(225,48,108,.28)}
+.nav a.ig:hover{box-shadow:0 10px 28px rgba(225,48,108,.45)}
+.nav a.ig svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2}
 .fab{position:fixed;z-index:15;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));width:52px;height:52px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.45);transition:transform .2s}
 .fab svg{width:28px;height:28px}
 .fab:hover{transform:scale(1.06)}
@@ -87,7 +121,11 @@ h1 span{color:transparent;-webkit-text-stroke:1.5px var(--papel)}
 /* Filtros */
 .filtros{border-block:1px solid var(--linea);padding-block:16px;display:grid;gap:12px}
 .buscar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.buscar input{flex:1 1 240px;min-width:0;font-size:16px;color:var(--papel);background:var(--tablado);border:1px solid var(--linea);border-radius:8px;padding:10px 12px;font-family:inherit}
+.buscar input{flex:1 1 240px;min-width:0;font-size:16px;color:var(--papel);background:var(--tablado) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a39cae' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50%/18px;
+  border:1.5px solid #4a4357;border-radius:10px;padding:12px 14px 12px 42px;font-family:inherit;transition:border-color .2s,box-shadow .2s}
+.buscar input::placeholder{color:#8e869a}
+.buscar input:hover{border-color:var(--humo)}
+.buscar input:focus{outline:none;border-color:var(--tungsteno);box-shadow:0 0 0 4px rgba(240,180,76,.15)}
 .enlace{background:none;color:var(--tungsteno);border:0;cursor:pointer;padding:6px 2px;text-decoration:underline;font-size:14px}
 .menus{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .menu{position:relative;min-width:0}
@@ -182,10 +220,16 @@ footer{border-top:1px solid var(--linea);padding-block:24px 40px;font-family:var
 .pared{border-top:1px solid var(--linea);padding-top:12px;display:grid;gap:8px}
 .pared p{font-size:14px!important}
 .tope{font-size:13px;color:var(--humo);margin:0}
-.lb-nav{display:flex;gap:8px;margin-top:auto;padding-top:8px}
+.lb-tit{display:flex;align-items:center;gap:12px;justify-content:space-between}
+.lb-tit h3{min-width:0}
+.flechas{display:flex;gap:8px;flex:none}
+.flecha-btn{width:44px;height:44px;border-radius:50%;background:var(--tablado);border:1px solid var(--linea);color:var(--papel);display:grid;place-items:center;cursor:pointer;transition:transform .2s,border-color .2s,background .2s}
+.flecha-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.flecha-btn:hover{border-color:var(--tungsteno);color:var(--tungsteno);transform:scale(1.06)}
+.flecha-btn:active{transform:scale(.94)}
 /* deja libre la esquina inferior para el cartel de Netlify */
 .capa{padding-bottom:max(76px,calc(env(safe-area-inset-bottom,0px) + 64px))!important}
-.lb-nav button,.cerrar{font-size:14px;background:var(--tablado);color:var(--papel);border:1px solid var(--linea);border-radius:8px;padding:10px 14px;cursor:pointer;flex:1}
+.cerrar{font-size:14px;background:var(--tablado);color:var(--papel);border:1px solid var(--linea);border-radius:8px;padding:10px 14px;cursor:pointer;flex:1}
 .cerrar{position:absolute;top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px));flex:none;z-index:2}
 
 /* Pedido */
@@ -231,12 +275,11 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
   .panel{padding-top:0;gap:10px}
   .panel h3{font-size:26px}
   .pedido h3{font-size:30px}
-  .lb-nav{margin-top:0}
   .elige.cuatro{grid-template-columns:repeat(2,minmax(0,1fr))}
   .foto .num{opacity:1;font-size:10px;left:4px;top:4px}
   .foto .marca{font-size:8px;right:4px;bottom:3px;letter-spacing:.04em}
 }
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (prefers-reduced-motion:reduce){*,*::before{transition:none!important;animation:none!important}.revela{opacity:1;transform:none}.foto img{opacity:1}}
 </style>
 </head>
 <body>
@@ -251,7 +294,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
       <h1>Fotos <span>en vivo</span></h1>
       <p class="bajada">Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis para usar en tus redes y promociones.</p>
       <p class="soy">Soy Gabriel y saco fotos en los shows de la ciudad. Si tocás o estuviste ahí, buscate.</p>
-      <nav class="nav"><a href="#cuadros">Fotos impresas</a><a href="https://instagram.com/gabriel.asa.mdp" target="_blank" rel="noopener">@gabriel.asa.mdp</a></nav>
+      <nav class="nav"><a href="#cuadros">Fotos impresas</a><a class="ig" href="https://instagram.com/gabriel.asa.mdp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@gabriel.asa.mdp</a></nav>
       <details class="obra">
         <summary><span class="obra-tag">Web en construcción</span> Algunas fotos todavía no tienen su edición final. <span class="mas">Ver más</span></summary>
         <p>Ya están subidos los shows, pero muchas fotos todavía no tienen su edición final: encuadre, color y nitidez. Las voy procesando de a poco, así que si alguna se ve rara o mal cortada, es eso: falta editarla. Las fotos que se imprimen se editan siempre antes.</p>
@@ -301,7 +344,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
   <div class="capa-img" id="lb-fondo"><div class="capa-marco"><img id="lb-foto" alt=""><span class="marca">© GABRIEL ASA</span></div></div>
   <div class="panel">
     <span class="cod" id="lb-cod"></span>
-    <h3 id="lb-titulo"></h3>
+    <div class="lb-tit"><h3 id="lb-titulo"></h3><div class="flechas"><button type="button" class="flecha-btn" id="lb-ant" aria-label="Foto anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="flecha-btn" id="lb-sig" aria-label="Foto siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div></div>
     <p id="lb-evento"></p>
     <div class="fila-btn">
       <a class="btn btn-principal" id="lb-ig" href="#" download>Descargar gratis</a>
@@ -313,7 +356,6 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
       <button type="button" class="btn btn-sec" id="lb-quiero">Pedila impresa</button>
       <p class="tope" id="lb-tope"></p>
     </div>
-    <div class="lb-nav"><button type="button" id="lb-ant">← Anterior</button><button type="button" id="lb-sig">Siguiente →</button></div>
   </div>
   <button type="button" class="cerrar" id="lb-cerrar">Cerrar ✕</button>
 </div>
@@ -432,6 +474,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
   function encajar(){ajustarTitulos.forEach(h=>{h.style.fontSize="";let fs=parseFloat(getComputedStyle(h).fontSize);while(h.scrollWidth>h.clientWidth+1&&fs>16){fs-=1;h.style.fontSize=fs+"px"}})}
   addEventListener("resize",()=>encajar());
   if(document.fonts)document.fonts.ready.then(()=>encajar());
+  const obs="IntersectionObserver" in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visto");obs.unobserve(e.target)}}),{rootMargin:"0px 0px -8% 0px"}):null;
   function render(){
     chips("banda","lugar"); chips("lugar","banda");
     const evs=datos.eventos.slice().sort((a,b)=>(b.fecha||"").localeCompare(a.fecha||"")||a.id.localeCompare(b.id))
@@ -460,6 +503,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
         bt.style.setProperty("--r",f.r||0.667);
         bt.setAttribute("aria-label",`Ver foto ${codigo(ev,f)}`);
         bt.innerHTML=`<img src="fotos/${ev.id}/${f.archivo}-t.jpg" alt="" loading="lazy" draggable="false"><span class="marca">© GABRIEL ASA</span>`;
+        const im=bt.querySelector("img"); const ok=()=>im.classList.add("cargo"); if(im.complete&&im.naturalWidth)ok(); else {im.addEventListener("load",ok);im.addEventListener("error",ok)}
         bt.addEventListener("click",()=>abrir(i));
         g.appendChild(bt);
       });
@@ -469,6 +513,7 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
         vm.onclick=()=>{abiertos.add(ev.id);art.classList.add("abierto");vm.remove()};
         art.appendChild(vm);
       }
+      art.classList.add("revela"); if(obs)obs.observe(art); else art.classList.add("visto");
       main.appendChild(art);
     });
     const lugares=new Set(evs.map(e=>e.lugar)).size;
@@ -483,7 +528,8 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
     idx=(i+visibles.length)%visibles.length;
     const {ev,f}=visibles[idx];
     abiertos.add(ev.id); const art=document.getElementById("show-"+ev.id); if(art&&!art.classList.contains("abierto")){art.classList.add("abierto");art.querySelector(".ver-mas")?.remove()}
-    $("#lb-foto").src=`fotos/${ev.id}/${f.archivo}.jpg`;
+    const lf=$("#lb-foto"); lf.classList.remove("cambia"); void lf.offsetWidth; lf.classList.add("cambia");
+    lf.src=`fotos/${ev.id}/${f.archivo}.jpg`;
     $("#lb-foto").alt=`Foto de ${nombre(ev)} en ${ev.lugar}`;
     $("#lb-cod").textContent=`Foto ${codigo(ev,f)}`;
     $("#lb-titulo").textContent=f.titulo||nombre(ev);
