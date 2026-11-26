@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Gabriel Asa Fotografía</title>
-<meta name="description" content="Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis, o pedila impresa y enmarcada.">
+<meta name="description" content="Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis para usar en tus redes y promociones, o pedila impresa y enmarcada.">
 <link rel="canonical" href="https://fotos.gabrielasa.com.ar/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Gabriel Asa Fotografía">
@@ -56,7 +56,7 @@ header.cartel{padding-block:40px 28px;display:grid;grid-template-columns:minmax(
 .soy{margin:0;max-width:52ch;color:var(--humo);font-size:15px}
 .portada{min-width:0;align-self:stretch;margin-block:-40px -28px;margin-right:calc(-1 * max(16px,(100vw - 1120px)/2));position:relative}
 .portada button{border:0;padding:0;background:none;cursor:zoom-in;display:block;width:100%;height:100%;min-height:420px}
-.portada img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block;
+.portada img{width:100%;height:100%;object-fit:cover;object-position:50% 78%;display:block;
   -webkit-mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.35) 25%,#000 60%);mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.35) 25%,#000 60%)}
 .obra summary{cursor:pointer;list-style:none;font-size:14px;color:var(--humo);line-height:1.5}
 .obra summary::-webkit-details-marker{display:none}
@@ -76,7 +76,13 @@ h1 span{color:transparent;-webkit-text-stroke:1.5px var(--papel)}
 .nav a{text-decoration:none;border:1px solid var(--linea);border-radius:999px;padding:9px 14px;min-height:40px;display:inline-flex;align-items:center}
 .nav a.wa{border-color:var(--wa);color:var(--wa)}
 .nav a:hover{border-color:var(--tungsteno)}
-.nav a.wa:hover{background:var(--wa);color:var(--noche)}
+.fab{position:fixed;z-index:15;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));width:52px;height:52px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.45);transition:transform .2s}
+.fab svg{width:28px;height:28px}
+.fab:hover{transform:scale(1.06)}
+.totop{position:fixed;z-index:15;right:calc(24px + env(safe-area-inset-right,0px));bottom:calc(82px + env(safe-area-inset-bottom,0px));width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:rgba(29,26,37,.85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--linea);color:var(--papel);transition:transform .2s,border-color .2s}
+.totop[hidden]{display:none}
+.totop svg{width:18px;height:18px}
+.totop:hover{transform:translateY(-2px);border-color:var(--humo)}
 
 /* Filtros */
 .filtros{border-block:1px solid var(--linea);padding-block:16px;display:grid;gap:12px}
@@ -243,9 +249,9 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
     <div class="cartel-txt">
       <div class="firma">Gabriel Asa · Mar del Plata</div>
       <h1>Fotos <span>en vivo</span></h1>
-      <p class="bajada">Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis.</p>
+      <p class="bajada">Fotos de shows en vivo en Mar del Plata. Buscá tu show y bajate tus fotos gratis para usar en tus redes y promociones.</p>
       <p class="soy">Soy Gabriel y saco fotos en los shows de la ciudad. Si tocás o estuviste ahí, buscate.</p>
-      <nav class="nav"><a href="#galeria">Buscar mi show</a><a href="#cuadros">Fotos impresas</a><a href="https://instagram.com/gabriel.asa.mdp" target="_blank" rel="noopener">@gabriel.asa.mdp</a><a class="wa" id="cartel-wa" href="https://wa.me/5492233040480" target="_blank" rel="noopener">WhatsApp</a></nav>
+      <nav class="nav"><a href="#cuadros">Fotos impresas</a><a href="https://instagram.com/gabriel.asa.mdp" target="_blank" rel="noopener">@gabriel.asa.mdp</a></nav>
       <details class="obra">
         <summary><span class="obra-tag">Web en construcción</span> Algunas fotos todavía no tienen su edición final. <span class="mas">Ver más</span></summary>
         <p>Ya están subidos los shows, pero muchas fotos todavía no tienen su edición final: encuadre, color y nitidez. Las voy procesando de a poco, así que si alguna se ve rara o mal cortada, es eso: falta editarla. Las fotos que se imprimen se editan siempre antes.</p>
@@ -342,6 +348,8 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
 </div>
 
 <div class="toast" id="toast" hidden role="status"></div>
+<a class="fab" id="cartel-wa" href="https://wa.me/5492233040480" target="_blank" rel="noopener" aria-label="Escribime por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
+<a class="totop" id="totop" href="#" aria-label="Volver arriba" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
 
 <script>
 (function(){
@@ -561,6 +569,9 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
   document.addEventListener("contextmenu",e=>{if(e.target.tagName==="IMG")e.preventDefault()});
   $("#q").addEventListener("input",render);
   $("#limpiar").onclick=()=>{$("#q").value="";sel.banda="";sel.lugar="";ponerHash("");render()};
+
+  const tt2=$("#totop"); const vt=()=>{tt2.hidden=scrollY<500}; addEventListener("scroll",vt,{passive:true}); vt();
+  tt2.addEventListener("click",e=>{e.preventDefault();scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})});
 
   /* Links compartidos: #foto-E02-05, #show-E02, #banda-x, #lugar-x */
   function leerHash(){
