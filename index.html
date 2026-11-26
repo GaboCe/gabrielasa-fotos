@@ -271,9 +271,9 @@ legend{font-family:var(--f-dato);font-size:12px;text-transform:uppercase;letter-
 @media (max-width:820px){
   header.cartel{grid-template-columns:minmax(0,1fr);gap:10px;padding-block:28px 22px}
   .cartel-txt{display:contents}
-  .firma{order:1} h1{order:2} .ir-buscar{order:3} .bajada{order:3} .portada{order:4;margin:4px calc(-1 * max(16px,env(safe-area-inset-left,0px)));align-self:auto}
+  .firma{order:1} h1{order:2} .bajada{order:3} .ir-buscar{order:4;justify-self:end;position:relative;z-index:2;margin-top:2px} .portada{order:5;margin:-34px calc(-1 * max(16px,env(safe-area-inset-left,0px))) 4px;align-self:auto}
   .portada button{min-height:0;aspect-ratio:4/3}
-  .portada img{-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 18%,#000 82%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 18%,#000 82%,transparent 100%)} .soy{order:5} .nav{order:6} .obra{order:7}
+  .portada img{-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 18%,#000 82%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 18%,#000 82%,transparent 100%)} .soy{order:6} .nav{order:7} .obra{order:8}
   :root{--fila:130px}
   .evento{grid-template-columns:minmax(0,1fr);gap:14px}
   .ver-mas{grid-column:1;margin-top:-6px}
